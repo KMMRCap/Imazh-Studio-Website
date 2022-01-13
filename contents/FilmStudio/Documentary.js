@@ -6,7 +6,7 @@ export const DocumentaryContent = [
         src: pic9,
         iframe: video9,
         title: 'غیزانیه فارس',
-        text: 'اجرای تدوین ، گرافیک متحرک ، میکس و مسترینگ صدا ، اصلاح رنگ و نور',
+        text: 'اجرای تدوین ، گرافیک متحرک ،<br> میکس و مسترینگ صدا ، اصلاح رنگ و نور',
         enTitle: '',
         enText: ''
     }

@@ -18,7 +18,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-html{
+html {
   overflow-x: hidden;
 }
 body {
@@ -295,7 +295,7 @@ body {
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: none;
-  transition: .4s ease;
+  transition: 0.4s ease;
 }
 #filters span {
   text-decoration: none;
@@ -765,8 +765,26 @@ body {
 #preview:hover ~ .preview-hover-box {
   top: 0;
 }
+iframe#preview:hover {
+  opacity: 1;
+}
+.img-preview-container #preview:hover {
+  opacity: 1;
+}
 .preview-hover-box:hover {
   top: 0;
+}
+.iframe-cont .img-card {
+  justify-content: unset;
+  height: unset;
+}
+.iframe-cont iframe {
+  width: 100% !important;
+  margin: 0;
+}
+.iframe-cont .img-details {
+  width: unset;
+  margin-right: 2rem;
 }
 /* -------------------------------------------------------------------------- footer */
 .slide-four {
