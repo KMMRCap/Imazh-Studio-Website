@@ -1,0 +1,706 @@
+@media (max-width: 575.98px) {
+  @media (max-width: 450px) {
+    .preview-details p {
+      font-size: 0.8rem !important;
+    }
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .outer-wrapper {
+    all: unset;
+  }
+  .wrapper {
+    all: unset;
+  }
+  .fixed-logo {
+    top: 1.5rem;
+    width: 3rem;
+  }
+  /* SideMenu --------------------------------- */
+  .menu-bar-container,
+  .menu-bar-png,
+  .menu-bar-hover {
+    right: 1.6rem;
+    top: 2.5rem;
+  }
+  .button1 {
+    display: none;
+  }
+  .ancher {
+    right: 0;
+  }
+  .ancher a {
+    font-size: 1.5rem;
+  }
+  .bi-list {
+    font-size: 2.5rem;
+    right: 0;
+  }
+  .bi-x-lg {
+    font-size: 2rem;
+    right: 0.25rem;
+  }
+  #nav-main {
+    width: 100vw;
+    right: -100vw;
+  }
+  #ulmenu li {
+    margin: 0 0.7rem;
+    text-align: center;
+  }
+  .amenu {
+    font-size: 0.8rem;
+  }
+  .alist {
+    font-size: 1.3rem;
+  }
+  #atel {
+    font-size: 0.8rem;
+  }
+  #aemail {
+    font-size: 0.8rem;
+  }
+  #navcr {
+    font-size: 0.8rem;
+  }
+  .top-nav {
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    flex-direction: column;
+  }
+  .mid-nav {
+    margin-right: 1rem;
+  }
+  .bottom-nav {
+    margin-right: 1rem;
+    text-align: center;
+  }
+  .navlogo-cont {
+    margin-bottom: 2rem;
+  }
+  /* Filters ------------------------------- */
+  #sticky-button {
+    right: 5rem;
+    top: 2rem;
+    font-size: 0.9rem;
+  }
+  #filters {
+    right: 5rem;
+    top: 2rem;
+  }
+  #filters .button {
+    font-size: 0.7rem;
+    margin: 0.45rem 0;
+  }
+  #filters .button:first-child {
+    padding-top: 3rem;
+  }
+  .photo-filter {
+    padding: 0.5rem 0 !important;
+  }
+  /* Shapes */
+  .one-top-shape {
+    right: 3rem;
+    top: -11rem;
+  }
+  .two-bottom-shape,
+  .two-top-shape,
+  .three-top-shape {
+    display: none;
+  }
+  /* SlideOne ------------------------------ */
+  .slide-one {
+    width: 100vw;
+    height: auto;
+  }
+  .description-cont {
+    padding: 10rem 1rem 2rem 1rem;
+  }
+  .description-cont h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .description-cont p,
+  .sample-description ul {
+    font-size: 15px;
+  }
+  /* SlideTwo ----------------------------- */
+  .slide-two {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cards {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+  .cards-item {
+    width: 33%;
+    height: auto;
+    margin-bottom: 1rem;
+    padding: 0 5px;
+  }
+  .cards-item.photos img {
+    height: 100%;
+  }
+  #load-more,
+  #load-less {
+    transform: unset;
+    padding: 0.5rem 1.5rem !important;
+    font-size: 0.8rem !important;
+  }
+  /* SlideThree --------------------------- */
+  .slide-three {
+    height: auto;
+    justify-content: center;
+    padding: 0;
+    padding-top: 3rem;
+    margin: 0;
+  }
+  .gallery2-container {
+    width: 95%;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .gallery2-container:after {
+    top: 0px !important;
+    left: -4px !important;
+    right: -4px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 5%,
+      rgba(156, 14, 80, 1) 70%
+    ) !important;
+  }
+  .gallery2-container.web-page {
+    height: 50vh !important;
+  }
+  .imglist-container {
+    display: none;
+  }
+  .img-container {
+    width: 100%;
+  }
+  .img-container img {
+    width: 100%;
+  }
+  .img-preview-container {
+    width: 100%;
+  }
+  /* SlideFour */
+  .slide-four {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://imazh.studio/img/footer-bg-1024x364.png);
+  }
+  .footer-logo {
+    width: 50%;
+  }
+  .img-preview img:hover {
+    opacity: unset;
+  }
+  .preview-hover-box {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    overflow-x: hidden;
+  }
+  .outer-wrapper {
+    all: unset;
+  }
+  .wrapper {
+    all: unset;
+  }
+  .fixed-logo {
+    top: 1.5rem;
+    width: 3rem;
+  }
+  /* SideMenu ------------------------------- */
+  .menu-bar-container,
+  .menu-bar-png,
+  .menu-bar-hover {
+    right: 1.6rem;
+    top: 2.5rem;
+  }
+  .button1 {
+    display: none;
+  }
+  #nav-main {
+    width: 25rem;
+    right: -25rem;
+  }
+  #ulmenu {
+    margin-left: 3rem;
+  }
+  #ulmenu li {
+    margin: 0 0.5rem;
+  }
+  .amenu {
+    font-size: 0.7rem;
+  }
+  .alist {
+    font-size: 1rem;
+  }
+  .alist:after {
+    bottom: -40%;
+  }
+  #atel {
+    font-size: 0.6rem;
+  }
+  #aemail {
+    font-size: 0.6rem;
+  }
+  #navcr {
+    font-size: 0.6rem;
+  }
+  /* Filters --------------------------------- */
+  #sticky-button {
+    font-size: 0.9rem;
+    right: 5rem;
+    top: 2rem;
+  }
+  #filters {
+    right: 5rem;
+    top: 2rem;
+  }
+  #filters .button {
+    font-size: 0.7rem;
+    margin: 0.45rem 0;
+  }
+  #filters .button:first-child {
+    padding-top: 3rem;
+  }
+  .photo-filter {
+    padding: 0.5rem 0 !important;
+  }
+  /* Shapes */
+  .one-top-shape {
+    right: 12rem;
+    top: -11rem;
+  }
+  .two-bottom-shape,
+  .two-top-shape,
+  .three-top-shape {
+    display: none;
+  }
+  /* SlideOne ------------------------------ */
+  .slide-one {
+    width: 100vw;
+    height: auto;
+  }
+  .description-cont {
+    padding: 10rem 3rem 2rem 3rem;
+  }
+  .description-cont h1 {
+    text-align: center;
+  }
+  /* SlideTwo -------------------------------- */
+  .slide-two {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cards {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cards-item {
+    width: 33%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .cards-item.photos img {
+    height: 100%;
+  }
+  #load-more,
+  #load-less {
+    transform: unset;
+    padding: 0.6rem 1.6rem !important;
+    font-size: 0.7rem !important;
+  }
+  /* SlideThree ------------------------------ */
+  .slide-three {
+    height: auto;
+    justify-content: center;
+    padding: 0;
+    padding-top: 3rem;
+    margin: 0;
+  }
+  .gallery2-container {
+    width: 95%;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .gallery2-container:after {
+    top: 0px !important;
+    left: -4px !important;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 5%,
+      rgba(156, 14, 80, 1) 70%
+    ) !important;
+  }
+  .gallery2-container.web-page {
+    height: 50vh !important;
+  }
+  .imglist-container {
+    display: none;
+  }
+  .img-container {
+    width: 100%;
+  }
+  .img-container img {
+    width: 100%;
+  }
+  .img-preview-container {
+    width: 100%;
+  }
+  /* SlideFour */
+  .slide-four {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://imazh.studio/img/footer-bg-1024x364.png);
+  }
+  .footer-logo {
+    width: 35%;
+  }
+  .img-preview img:hover {
+    opacity: unset;
+  }
+  .preview-hover-box {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    overflow-x: hidden;
+  }
+  .outer-wrapper {
+    all: unset;
+  }
+  .wrapper {
+    all: unset;
+  }
+  /* SideMenu ------------------------------- */
+  .menu-bar-container,
+  .menu-bar-png,
+  .menu-bar-hover {
+    right: 2rem;
+  }
+  .button1 {
+    display: none;
+  }
+  #nav-main {
+    width: 28rem;
+    right: -28rem;
+  }
+  #ulmenu {
+    margin-left: 3rem;
+  }
+  .amenu {
+    font-size: 0.8rem;
+  }
+  #ullist li {
+    margin: 1rem 0.5rem 0;
+  }
+  .alist {
+    font-size: 1.1rem;
+  }
+  .alist:after {
+    bottom: -40%;
+  }
+  #atel {
+    font-size: 0.7rem;
+  }
+  #aemail {
+    font-size: 0.7rem;
+  }
+  #navcr {
+    font-size: 0.7rem;
+  }
+  .top-nav {
+    margin-left: 0.2rem;
+  }
+  /* Shapes */
+  .one-top-shape {
+    right: 20rem;
+    top: -11rem;
+  }
+  .two-bottom-shape,
+  .two-top-shape,
+  .three-top-shape {
+    display: none;
+  }
+  /* SlideOne ------------------------------ */
+  .slide-one {
+    width: 100vw;
+    height: auto;
+  }
+  .description-cont {
+    padding: 10rem 3rem 2rem 3rem;
+  }
+  .description-cont h1 {
+    text-align: center;
+  }
+  /* SlideTwo ------------------------------ */
+  .slide-two {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cards {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cards-item {
+    width: 33%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .cards-item.photos img {
+    height: 100%;
+  }
+  #load-more,
+  #load-less {
+    transform: unset;
+    padding: 0.6rem 1.6rem !important;
+    font-size: 0.9rem !important;
+  }
+  /* SlideThree ---------------------------- */
+  .slide-three {
+    height: auto;
+    justify-content: center;
+    padding: 0;
+    padding-top: 3rem;
+    margin: 0;
+  }
+  .gallery2-container {
+    height: auto;
+    width: 95%;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .gallery2-container:after {
+    top: 0px !important;
+    left: -4px !important;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 5%,
+      rgba(156, 14, 80, 1) 70%
+    ) !important;
+  }
+  .imglist-container {
+    display: none;
+  }
+  .img-container {
+    width: 100%;
+  }
+  .img-preview img:hover {
+    opacity: unset;
+  }
+  .preview-hover-box {
+    display: none;
+  }
+  .img-container img {
+    width: 100%;
+  }
+  .img-preview-container {
+    width: 100%;
+  }
+  /* SlideFour */
+  .slide-four {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://imazh.studio/img/footer-bg-1024x364.png);
+  }
+  .footer-logo {
+    width: 35%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .seo-outer {
+    overflow: hidden;
+  }
+  /* SideMenu ---------------------------- */
+  .menu-bar-container {
+    display: none;
+  }
+  #close-navbutton {
+    display: none !important;
+  }
+  #ullist li {
+    margin-top: 0.5rem;
+  }
+  .alist {
+    font-size: 1.4rem;
+  }
+  #atel {
+    font-size: 0.9rem;
+  }
+  #aemail {
+    font-size: 0.9rem;
+  }
+  #navcr {
+    font-size: 0.9rem;
+  }
+  /* SlideTwo ------------------------------ */
+  .cards-item {
+    width: 250px;
+  }
+  #load-more,
+  #load-less {
+    padding: 0.6rem 1.6rem !important;
+    font-size: 0.9rem !important;
+  }
+  /* SlideThree ---------------------------- */
+  .img-card img {
+    width: 50%;
+  }
+  .preview-details p {
+    font-size: 0.9rem;
+  }
+  /* SlideFour ---------------------------- */
+  .seo-footer {
+    width: 50vw !important;
+  }
+  .slide-four {
+    width: 60vw;
+  }
+  .btt.fa {
+    transform: rotate(90deg);
+    transform-origin: 5px 10px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .seo-first-slide {
+    width: 60vw !important;
+  }
+  /* SideMenu ------------------------------- */
+  .menu-bar-container {
+    display: none;
+  }
+  #close-navbutton {
+    display: none !important;
+  }
+  #ullist li {
+    margin-top: 0.5rem;
+  }
+  .alist {
+    font-size: 1.4rem;
+  }
+  #atel {
+    font-size: 0.9rem;
+  }
+  #aemail {
+    font-size: 0.9rem;
+  }
+  #navcr {
+    font-size: 0.9rem;
+  }
+  /* SlideTwo -------------------------------- */
+  .cards-item {
+    width: 250px;
+  }
+  #load-more,
+  #load-less {
+    padding: 0.5rem 1rem;
+    font-size: 0.6rem;
+  }
+  /* SlideThree ------------------------------ */
+  .img-card img {
+    width: 50%;
+  }
+  .preview-details p {
+    font-size: 0.9rem;
+  }
+  .btt.fa {
+    transform: rotate(90deg);
+    transform-origin: 5px 10px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1700px) {
+  .seo-first-slide {
+    width: 60vw !important;
+  }
+  /* SideMenu ------------------------------ */
+  .menu-bar-container {
+    display: none;
+  }
+  #close-navbutton {
+    display: none !important;
+  }
+  /* SlideTwo ----------------------------- */
+  .cards-item {
+    width: 300px;
+  }
+  #load-more,
+  #load-less {
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+  }
+  /* SlideThree --------------------------- */
+  .img-card img {
+    width: 50%;
+  }
+  .preview-details p {
+    font-size: 0.9rem;
+  }
+  .btt.fa {
+    transform: rotate(90deg);
+    transform-origin: 5px 10px;
+  }
+}
+
+@media (min-width: 1700.02px) {
+  .seo-first-slide {
+    width: 60vw !important;
+  }
+  /* SideMenu */
+  .menu-bar-container {
+    display: none;
+  }
+  #close-navbutton {
+    display: none !important;
+  }
+  /* SlideThree ----------------------------- */
+  .img-card img {
+    width: 50%;
+  }
+  .img-details h3 {
+    font-size: 1.5rem;
+  }
+  .img-details p {
+    font-size: 1rem;
+  }
+  .img-preview iframe {
+    width: 90rem;
+  }
+  .preview-details h3 {
+    font-size: 2rem;
+  }
+  .preview-details p {
+    font-size: 1.5rem;
+  }
+  .btt.fa {
+    transform: rotate(90deg);
+    transform-origin: 5px 10px;
+  }
+}

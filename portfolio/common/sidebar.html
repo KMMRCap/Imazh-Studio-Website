@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head></head>
+
+<body>
+    <div class="menu-bar-container" onclick="handleOpenVerticalSidebar('fa')">
+        <img class="menu-bar-png" src="https://imazh.studio/img/menu.png" alt="imazh,menu-bar">
+        <img class="menu-bar-hover" src="https://imazh.studio/img/menu-hover.png" alt="imazh,menu-bar">
+    </div>
+    <button class="button1" onclick="handleHorizontalSidabar('fa')">
+        <div class="ancher">
+            <a>ایماژ</a>
+        </div>
+        <div class="navbutton">
+            <span id="nav-shape1"></span>
+            <span id="nav-shape2"></span>
+            <span id="nav-shape3"></span>
+        </div>
+    </button>
+    <div id="nav-main">
+        <div class="top-nav">
+            <a class="navlogo-cont" href="https://imazh.studio">
+                <img id="navlogo" src="https://imazh.studio/img/Imazh-Logo-neww.png" alt="imazh,navbar-logo">
+            </a>
+            <ul id="ulmenu">
+                <li>
+                    <a class="amenu" href="https://imazh.studio/">صفحه اصلی</a>
+                </li>
+                <li>
+                    <a class="amenu" href="https://imazh.studio/about-us/">درباره ما</a>
+                </li>
+                <li>
+                    <a class="amenu" href="https://imazh.studio/blog/">بلاگ</a>
+                </li>
+                <li>
+                    <a class="amenu" href="https://imazh.studio/contact-us/">تماس با ما</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mid-nav">
+            <ul id="ullist">
+                <li>
+                    <a class="alist" href="https://imazh.studio/portfolio/film-studio">استودیو فیلم سازی</a>
+                </li>
+                <li>
+                    <a class="alist" href="https://imazh.studio/portfolio/photography-studio">استودیو عکس برداری</a>
+                </li>
+                <li>
+                    <a class="alist" href="https://imazh.studio/portfolio/development">دپارتمان سایت و اپلیکیشن</a>
+                </li>
+                <li>
+                    <a class="alist" href="https://imazh.studio/portfolio/graphic-design">دپارتمان طراحی گرافیک</a>
+                </li>
+                <li>
+                    <a class="alist" href="https://imazh.studio/portfolio/modeling-rendering">مدلینگ و
+                        رندرینگ</a>
+                </li>
+                <li>
+                    <a class="alist" href="https://imazh.studio/portfolio/architecture">دپارتمان معماری</a>
+                </li>
+                <li>
+                    <a class="alist" href="https://imazh.studio/portfolio/motion-graphic">موشن گرافیک</a>
+                </li>
+                <li>
+                    <a class="alist" href="https://imazh.studio/portfolio/digital-marketing">دیجیتال مارکتینگ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-nav">
+            <span id="navtel">
+                <a id="atel" href="tel:+989179514750">09179514750</a>
+            </span>
+            <span id="navemail">
+                <a id="aemail" href="mailto:info@imazh.studio">info@imazh.studio</a>
+            </span>
+            <p id="navcr">© 2021 - تمامی حقوق برای استودیو برندینگ ایماژ محفوظ است </p>
+        </div>
+        <i id="close-navbutton" onclick='handleCloseSidebar("fa")' class="fa fa-chevron-right"></i>
+    </div>
+    <a href="https://imazh.studio">
+        <img class="fixed-logo" src="https://imazh.studio/img/Imazh-Logo-1-min.png" alt="imazh,logo">
+    </a>
+
+    <script>$.getScript('../../js/SideBar.js')</script>
+</body>
+
+</html>
