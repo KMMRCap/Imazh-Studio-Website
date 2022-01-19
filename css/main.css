@@ -614,7 +614,7 @@ body {
 .card-web-container {
   overflow-y: hidden;
   height: 100%;
-  width: 50%;
+  width: 30rem;
   border-radius: 0.75rem;
   box-shadow: 0 5px 1px 0px #9d0e50;
 }
@@ -636,6 +636,7 @@ body {
 .card-web-container img {
   width: 100% !important;
   height: auto !important;
+  margin: 0;
 }
 .not-site img {
   height: 100% !important;
@@ -785,6 +786,9 @@ iframe#preview:hover {
 .iframe-cont .img-details {
   width: unset;
   margin-right: 2rem;
+}
+.web-page .img-container{
+  max-width: 80vw;
 }
 /* -------------------------------------------------------------------------- footer */
 .slide-four {

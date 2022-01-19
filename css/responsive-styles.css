@@ -627,6 +627,9 @@
   .img-card img {
     width: 50%;
   }
+  .card-web-container{
+    width: 18rem;
+  }
   .preview-details p {
     font-size: 0.9rem;
   }
@@ -659,6 +662,9 @@
   /* SlideThree --------------------------- */
   .img-card img {
     width: 50%;
+  }
+  .card-web-container{
+    width: 20rem;
   }
   .preview-details p {
     font-size: 0.9rem;
