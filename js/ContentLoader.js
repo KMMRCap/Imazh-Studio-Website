@@ -62,6 +62,31 @@ const ContentLoader = async (page, siteLang) => {
             $('.img-list').append(secondGalleryItem)
         })
     }
+    else if (page === 'wordpress') {
+        const responce = await import('../contents/Development/Wordpress.js')
+        responce.WordpressContent.forEach((item) => {
+            // -------------------------------------------
+            let firstGalleryItem = String.raw`
+                <div class="cards-item">
+                    <img src=${item.src} alt="imazh,development,wordpress">
+                </div>
+            `
+            $('.cards').append(firstGalleryItem)
+            // --------------------------------------------
+            let secondGalleryItem = String.raw`
+                <div class='img-card ${item.class}'>
+                    <div class="card-web-container">
+                        <img src=${item.srcFull ? item.srcFull : item.src} alt="imazh,development,wordpress">
+                    </div>
+                    <div class="img-details">
+                        <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
+                        <p>${siteLang === 'en' ? item.enText : item.text}</p>
+                    </div>
+                </div>
+            `
+            $('.img-list').append(secondGalleryItem)
+        })
+    }
 
     // -------------------------------------------------------------------- Digital Marketing
     // ----------------------------------------------------------------------------------

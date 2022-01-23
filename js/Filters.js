@@ -1,13 +1,13 @@
 //---------------------------------------------------------------------- Filters Button
 let count = 0;
 
-const openFilters = () => {
+const openFilters = (height) => {
     if (count == 0) {
         $("#sticky-button")[0].style.boxShadow = "none";
         $("#filters")[0].style.boxShadow = "0px 0px 10px #d9d9d9";
         $(".fas.fa-angle-down").fadeOut();
         $(".fas.fa-angle-up").fadeIn();
-        $("#filters")[0].style.height = "13rem";
+        $("#filters")[0].style.height = `${height}rem`;
         count += 1;
     }
     else {

@@ -74,6 +74,7 @@ body {
 }
 #filters {
   left: 4.5rem;
+  font-family: "roboto";
 }
 .fas.fa-angle-up {
   right: 5%;

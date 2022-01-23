@@ -126,6 +126,7 @@ body {
 }
 .sample-description h1{
   text-align: right;
+  font-family: 'kalameh';
 }
 /* --------------------------------------------------------------  Section 2 */
 #load-more,

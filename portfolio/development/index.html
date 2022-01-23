@@ -25,7 +25,22 @@
     <section id='sidebar'>
         <!-- SideBar will import here -->
     </section>
-    <!-- No Sub Pages -->
+    <section id="sub-pages">
+        <button id="sticky-button" onclick="openFilters('8')">دسته بندی ها
+            <i class="fas fa-angle-down"></i>
+            <i class="fas fa-angle-up"></i>
+        </button>
+        <div id="filters">
+            <a class="is-checked">
+                <i class="fas fa-circle"></i>
+                <span>دپارتمان دولوپ</span>
+            </a>
+            <a href="https://imazh.studio/portfolio/development/wordpress.html" target="_blank">
+                <i class="fas fa-circle"></i>
+                <span>وردپرس</span>
+            </a>
+        </div>
+    </section>
     <section class="outer-wrapper">
         <div class="wrapper">
             <section class="slide-one">
@@ -148,6 +163,7 @@
     <script src="../../js/ContentLoader.min.js"></script>
     <script src="../../js/custom.min.js"></script>
     <script src="../../js/Gallery1.min.js"></script>
+    <script src="../../js/Filters.min.js"></script>
 
 </body>
 
