@@ -25,9 +25,9 @@ export const DevelopmentContent = [
         class: 'not-site',
         src: pic2,
         srcFull: '',
-        title: 'رابط کاربری اپلیکیشن ضبط صدا',
-        text: 'اپلیکیشن ضبط صدا به همراه ایجاد bookmark و کامنت برای بخش های مختلف صوت ضبط شده',
-        enTitle: 'Voice Recorder Application User Interface',
+        title: 'رابط کاربری روناش',
+        text: 'روناش – اپلیکیشن تاکسی اینترنتی',
+        enTitle: 'Ronash User Interface',
         enText: ''
     },
     {
@@ -43,9 +43,9 @@ export const DevelopmentContent = [
         class: 'not-site',
         src: pic4,
         srcFull: '',
-        title: 'رابط کاربری روناش',
-        text: 'روناش – اپلیکیشن تاکسی اینترنتی',
-        enTitle: 'Ronash User Interface',
+        title: 'رابط کاربری اپلیکیشن ضبط صدا',
+        text: 'اپلیکیشن ضبط صدا به همراه ایجاد bookmark و کامنت برای بخش های مختلف صوت ضبط شده',
+        enTitle: 'Voice Recorder Application User Interface',
         enText: ''
     },
     {
