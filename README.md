@@ -13,12 +13,10 @@ including :
 10. Motion Graphic
 11. Development
 12. Wordpress
-13. Architecture
-14. Modeling and Rendering
-15. Digital Marketing
-16. Content Writing
-17. Seo
-18. Social Media
-19. Graphic Design
+13. Digital Marketing
+14. Content Writing
+15. Seo
+16. Social Media
+17. Graphic Design
 
 And also 18 clone pages of them in english language

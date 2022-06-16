@@ -17,6 +17,9 @@
     top: 1.5rem;
     width: 3rem;
   }
+  .spinner h3{
+    font-size: 1.5rem;
+  }
   /* SideMenu --------------------------------- */
   .menu-bar-container,
   .menu-bar-png,

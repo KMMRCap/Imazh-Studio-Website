@@ -1,43 +1,8 @@
 const ContentLoader = async (page, siteLang) => {
-    // --------------------------------------------------------------------- Architecture
-    // ----------------------------------------------------------------------------------
-    if (page === 'architecture') {
-        const response = await import('../contents/Architecture/ArchitectureContent.js')
-        response.ArchitectureContent.reverse().forEach((item) => {
-            // -------------------------------------------
-            let firstGalleryItem = String.raw`
-                <div class="cards-item photos">
-                    <img src=${item.src} alt="imazh,architecture">
-                </div>
-            `
-            $('.cards').append(firstGalleryItem)
-            // --------------------------------------------
-            let secondGalleryItem = String.raw`
-                <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,architecture">
-                    </div>
-                    <div class="img-details">
-                        <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
-                        <p>${siteLang === 'en' ? item.enText : item.text}</p>
-                    </div>
-                </div>
-            `
-            $('.img-list').append(secondGalleryItem)
-            //-----------------------------------------------
-            let modalItem = String.raw`
-                <li class="splide__slide">
-                    <img src='${item.src}' alt="imazh,architecture">
-                </li>
-            `
-            $('.splide__list').append(modalItem)
-        })
-    }
-
     // -------------------------------------------------------------------- Development
     // ----------------------------------------------------------------------------------
 
-    else if (page === 'development') {
+    if (page === 'development') {
         const response = await import('../contents/Development/Development.js')
         response.DevelopmentContent.reverse().forEach((item) => {
             // -------------------------------------------
@@ -324,42 +289,6 @@ const ContentLoader = async (page, siteLang) => {
             let modalItem = String.raw`
                 <li class="splide__slide">
                     <img src='${item.src}' alt="imazh,graphic-design">
-                </li>
-            `
-            $('.splide__list').append(modalItem)
-        })
-    }
-
-    // -------------------------------------------------------------------- Modeling-Rendering
-    // ----------------------------------------------------------------------------------
-
-    else if (page === 'modeling-rendering') {
-        const response = await import('../contents/Modeling-Rendering/Modeling-Rendering.js')
-        response.ModelingRenderingContent.reverse().forEach((item) => {
-            // -------------------------------------------
-            let firstGalleryItem = String.raw`
-                <div class="cards-item photos">
-                    <img src=${item.src} alt="imazh,modeling-rendering">
-                </div>
-            `
-            $('.cards').append(firstGalleryItem)
-            // --------------------------------------------
-            let secondGalleryItem = String.raw`
-                <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,modeling-rendering">
-                    </div>
-                    <div class="img-details">
-                        <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
-                        <p>${siteLang === 'en' ? item.enText : item.text}</p>
-                    </div>
-                </div>
-            `
-            $('.img-list').append(secondGalleryItem)
-            // //-----------------------------------------------
-            let modalItem = String.raw`
-                <li class="splide__slide">
-                    <img src='${item.src}' alt="imazh,modeling-rendering">
                 </li>
             `
             $('.splide__list').append(modalItem)
