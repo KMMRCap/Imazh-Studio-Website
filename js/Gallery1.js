@@ -34,7 +34,4 @@ $(window).resize(() => {
         let findCount = Math.ceil($('.cards-item:not(".hidden")').length) / 3
         $('.cards').outerWidth(findCount * ($('.cards-item').outerWidth()))
     }
-    else{
-        console.log($('.cards').outerWidth('100%'));
-    }
 })

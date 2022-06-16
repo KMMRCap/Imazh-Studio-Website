@@ -2,8 +2,8 @@ const ContentLoader = async (page, siteLang) => {
     // --------------------------------------------------------------------- Architecture
     // ----------------------------------------------------------------------------------
     if (page === 'architecture') {
-        const responce = await import('../contents/Architecture/ArchitectureContent.js')
-        responce.ArchitectureContent.forEach((item) => {
+        const response = await import('../contents/Architecture/ArchitectureContent.js')
+        response.ArchitectureContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item photos">
@@ -38,8 +38,8 @@ const ContentLoader = async (page, siteLang) => {
     // ----------------------------------------------------------------------------------
 
     else if (page === 'development') {
-        const responce = await import('../contents/Development/Development.js')
-        responce.DevelopmentContent.forEach((item) => {
+        const response = await import('../contents/Development/Development.js')
+        response.DevelopmentContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -63,8 +63,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'wordpress') {
-        const responce = await import('../contents/Development/Wordpress.js')
-        responce.WordpressContent.forEach((item) => {
+        const response = await import('../contents/Development/Wordpress.js')
+        response.WordpressContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -92,8 +92,8 @@ const ContentLoader = async (page, siteLang) => {
     // ----------------------------------------------------------------------------------
 
     else if (page === 'content-writing') {
-        const responce = await import('../contents/DigitalMarketing/ContentWriting.js')
-        responce.ContentWritingContent.forEach((item) => {
+        const response = await import('../contents/DigitalMarketing/ContentWriting.js')
+        response.ContentWritingContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -123,8 +123,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'digital-marketing') {
-        const responce = await import('../contents/DigitalMarketing/DigitalMarketing.js')
-        responce.DigitalMarketingContent.forEach((item) => {
+        const response = await import('../contents/DigitalMarketing/DigitalMarketing.js')
+        response.DigitalMarketingContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -154,8 +154,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'social-media') {
-        const responce = await import('../contents/DigitalMarketing/SocialMedia.js')
-        responce.SocialMediaContent.forEach((item) => {
+        const response = await import('../contents/DigitalMarketing/SocialMedia.js')
+        response.SocialMediaContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -170,8 +170,8 @@ const ContentLoader = async (page, siteLang) => {
     // ----------------------------------------------------------------------------------
 
     else if (page === 'film-studio') {
-        const responce = await import('../contents/FilmStudio/FilmStudio.js')
-        responce.FilmStudioContent.forEach((item) => {
+        const response = await import('../contents/FilmStudio/FilmStudio.js')
+        response.FilmStudioContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -195,8 +195,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'documentary') {
-        const responce = await import('../contents/FilmStudio/Documentary.js')
-        responce.DocumentaryContent.forEach((item) => {
+        const response = await import('../contents/FilmStudio/Documentary.js')
+        response.DocumentaryContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -220,8 +220,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'music-video') {
-        const responce = await import('../contents/FilmStudio/MusicVideo.js')
-        responce.MusicVideoContent.forEach((item) => {
+        const response = await import('../contents/FilmStudio/MusicVideo.js')
+        response.MusicVideoContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -245,8 +245,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'short-film') {
-        const responce = await import('../contents/FilmStudio/ShortFilm.js')
-        responce.ShortFilmContent.forEach((item) => {
+        const response = await import('../contents/FilmStudio/ShortFilm.js')
+        response.ShortFilmContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -270,8 +270,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'teaser') {
-        const responce = await import('../contents/FilmStudio/Teaser.js')
-        responce.TeaserContent.forEach((item) => {
+        const response = await import('../contents/FilmStudio/Teaser.js')
+        response.TeaserContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -299,8 +299,8 @@ const ContentLoader = async (page, siteLang) => {
     // -----------------------------------------------------------------------------------
 
     else if (page === 'graphic-design') {
-        const responce = await import('../contents/GraphicDesign/GraphicDesign.js')
-        responce.GraphicDesignContent.forEach((item) => {
+        const response = await import('../contents/GraphicDesign/GraphicDesign.js')
+        response.GraphicDesignContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -334,8 +334,8 @@ const ContentLoader = async (page, siteLang) => {
     // ----------------------------------------------------------------------------------
 
     else if (page === 'modeling-rendering') {
-        const responce = await import('../contents/Modeling-Rendering/Modeling-Rendering.js')
-        responce.ModelingRenderingContent.forEach((item) => {
+        const response = await import('../contents/Modeling-Rendering/Modeling-Rendering.js')
+        response.ModelingRenderingContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item photos">
@@ -370,8 +370,8 @@ const ContentLoader = async (page, siteLang) => {
     // ----------------------------------------------------------------------------------
 
     else if (page === 'motion-graphic') {
-        const responce = await import('../contents/MotionGraphic/MotionGraphic.js')
-        responce.MotionGraphicContent.forEach((item) => {
+        const response = await import('../contents/MotionGraphic/MotionGraphic.js')
+        response.MotionGraphicContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item">
@@ -397,8 +397,8 @@ const ContentLoader = async (page, siteLang) => {
     // ----------------------------------------------------------------------------------
 
     else if (page === 'photography-studio') {
-        const responce = await import('../contents/PhotographyStudio/PhotographyStudio.js')
-        responce.PhotographyStudioContent.forEach((item) => {
+        const response = await import('../contents/PhotographyStudio/PhotographyStudio.js')
+        response.PhotographyStudioContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item photos">
@@ -429,8 +429,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'decorative') {
-        const responce = await import('../contents/PhotographyStudio/Decorative.js')
-        responce.DecorativeContent.forEach((item) => {
+        const response = await import('../contents/PhotographyStudio/Decorative.js')
+        response.DecorativeContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item photos">
@@ -461,8 +461,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'portrait') {
-        const responce = await import('../contents/PhotographyStudio/Portrait.js')
-        responce.PortraitContent.forEach((item) => {
+        const response = await import('../contents/PhotographyStudio/Portrait.js')
+        response.PortraitContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item photos">
@@ -493,8 +493,8 @@ const ContentLoader = async (page, siteLang) => {
         })
     }
     else if (page === 'product') {
-        const responce = await import('../contents/PhotographyStudio/Product.js')
-        responce.ProductContent.forEach((item) => {
+        const response = await import('../contents/PhotographyStudio/Product.js')
+        response.ProductContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
                 <div class="cards-item photos">
@@ -548,12 +548,29 @@ const ContentLoader = async (page, siteLang) => {
         }
     }
     // ---------------------------------------------------------------  Gallery 1 Scroll Left
+    const isInViewport = () => {
+        const slideThree = $('.slide-three')[0]
+        const rect = slideThree.getBoundingClientRect();
+
+        if (window.matchMedia("(min-width :992px)").matches) {
+            return rect.left
+        }
+        else {
+            return rect.bottom
+        }
+    }
     Array.from($('.cards-item img')).map((item, index) => {
-        if ($('.slide-three').length !== 0) {
+        if ($('.slide-three').length) {
             $(item).click(() => {
                 $('.img-card')[index].click();
 
-                $(".slide-three")[0].scrollIntoView();
+                if (window.matchMedia("(min-width :992px)").matches) {
+                    const left = isInViewport()
+                    $('.outer-wrapper')[0].scrollBy(0, -left)
+                }
+                else {
+                    window.scrollBy(0, isInViewport() - window.innerHeight + 5)
+                }
             })
         }
     })

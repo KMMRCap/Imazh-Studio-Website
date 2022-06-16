@@ -4,6 +4,10 @@ const pic3 = 'https://imazh.studio/img/Site-App/3-coinpool-cover.jpg'
 const pic3Full = 'https://imazh.studio/img/Site-App/coin-pool.jpg'
 const pic5 = 'https://imazh.studio/img/Site-App/5-nokhbeggan-cover.jpg'
 const pic5Full = 'https://imazh.studio/img/Site-App/nokhbegan.jpg'
+const pic6 = 'https://imazh.studio/img/Site-App/6-vosoq-cover.jpg'
+const pic6Full = 'https://imazh.studio/img/Site-App/vosoq.jpg'
+const pic7 = 'https://imazh.studio/img/Site-App/7-bamazon-cover.jpg'
+const pic7Full = 'https://imazh.studio/img/Site-App/bamazon.jpg'
 
 export const WordpressContent = [
     {
@@ -32,5 +36,23 @@ export const WordpressContent = [
         text: 'پیاده سازی سایت چند منظوره نخبگان (شامل فروشگاه کتاب و برگزاری دوره های مرتبط)',
         enTitle: 'Nokhbegan Website',
         enText: ''
-    }
+    },
+    {
+        class: '',
+        src: pic6,
+        srcFull: pic6Full,
+        title: 'سایت هلدینگ وثوق',
+        text: 'طراحی رابط کاربری اختصاصی سایت تجاری هلدینگ وثوق به همراه توسعه در بستر وردپرس',
+        enTitle: 'Vosoq Website',
+        enText: ''
+    },
+    {
+        class: '',
+        src: pic7,
+        srcFull: pic7Full,
+        title: 'سایت بامازون',
+        text: 'طراحی رابط کاربری اختصاصی سایت چند فروشندگی بامازون به همراه توسعه در بستر وردپرس',
+        enTitle: 'Bamazon Website',
+        enText: ''
+    },
 ]
