@@ -36,7 +36,7 @@ body {
 }
 
 /* -------------------------------------------------------  Pre Loader */
-.spinner-wrapper {
+.preloader-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -47,7 +47,7 @@ body {
   z-index: 999999;
 }
 
-.spinner {
+.preloader {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,15 +55,88 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
-.spinner h3 {
+.preloader span {
+  width: 2rem;
+  height: 2rem;
+  background: #fdb400;
+  border-radius: 20px;
+  transition: .5s ease;
+  animation: bouncing .5s cubic-bezier(.19, .57, .3, .98) infinite alternate;
+}
+
+@keyframes bouncing {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-150px);
+  }
+}
+
+.preloader span.active{
+  opacity: 0;
+}
+
+.preloader h3 {
   color: #fdb400;
   font-weight: 600;
-  font-family: "iransans";
   text-align: center;
   font-size: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.preloader h3.active::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #9d0e50;
+  animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
+  transform: translateX(-101%);
+}
+
+.preloader h3::before{
+  content: 'منتظر بمانید';
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #fdb400;
+  transform: translateX(0);
+}
+
+.preloader h3.active::before{
+  animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
+}
+
+.preloader h3.active:nth-of-type(1)::before,
+.preloader h3.active:nth-of-type(1)::after{
+  animation-delay: .1s;
+}
+
+.preloader h3.active:nth-of-type(2)::before,
+.preloader h3.active:nth-of-type(2)::after{
+  animation-delay: .5s;
+}
+
+@keyframes a-ltr-after{
+  0% {transform: translateX(-100%)}
+  100% {transform: translateX(115%)}
+}
+
+@keyframes a-ltr-before{
+  0% {transform: translateX(0)}
+  100% {transform: translateX(200%)}
 }
 
 /* -------------------------------------------------------------------------------------  Navbar */

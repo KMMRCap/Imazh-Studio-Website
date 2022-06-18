@@ -6,9 +6,13 @@ $(function () {
 
 // ----------------------------------------------- PreLoader
 const loadFix = () => {
-    setTimeout(function () {
-        $(".spinner-wrapper").fadeOut();
-    }, 100)
+    $('.preloader span').addClass('active')
+    setTimeout(() => {
+        $('.preloader h3').addClass('active')
+    }, 500)
+    setTimeout(() => {
+        $(".preloader-wrapper").fadeOut();
+    }, 4000)
 }
 // ----------------------------------------------- Gallery 2 Scroll Hint for Web Development Page
 const hideHint = () => {
