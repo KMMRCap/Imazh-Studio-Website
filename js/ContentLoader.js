@@ -344,7 +344,7 @@ const ContentLoader = async (page, siteLang) => {
         response.DecorativeContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
-                <div class="cards-item photos">
+                <div class="cards-item">
                     <img src=${item.src} alt="imazh,photography-studio,decorative">
                 </div>
             `
@@ -374,7 +374,7 @@ const ContentLoader = async (page, siteLang) => {
         response.PortraitContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
-                <div class="cards-item photos">
+                <div class="cards-item">
                     <img src=${item.src} alt="imazh,photography-studio,portrait">
                 </div>
             `
@@ -404,7 +404,7 @@ const ContentLoader = async (page, siteLang) => {
         response.ProductContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
-                <div class="cards-item photos">
+                <div class="cards-item">
                     <img src=${item.src} alt="imazh,photography-studio,product">
                 </div>
             `
