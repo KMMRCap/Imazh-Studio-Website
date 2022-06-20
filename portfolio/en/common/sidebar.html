@@ -8,11 +8,9 @@
         <img class="menu-bar-png" src="https://imazh.studio/img/menu.png" alt="imazh,menu-bar">
         <img class="menu-bar-hover" src="https://imazh.studio/img/menu-hover.png" alt="imazh,menu-bar">
     </div>
-    <button class="button1" onclick="handleHorizontalSidabar('en')">
-        <div class="ancher">
-            <a>Imazh</a>
-        </div>
-        <div class="navbutton">
+    <button class="sidebar-button" onclick="handleHorizontalSidabar('en')">
+        <a>Imazh</a>
+        <div>
             <span id="nav-shape1"></span>
             <span id="nav-shape2"></span>
             <span id="nav-shape3"></span>
@@ -21,54 +19,53 @@
     <div id="nav-main">
         <div class="top-nav">
             <a class="navlogo-cont" href="https://imazh.studio/en/home">
-                <img id="navlogo" src="https://imazh.studio/img/Imazh-Logo-neww.png" alt="imazh,navbar-logo">
+                <img src="https://imazh.studio/img/Imazh-Logo-neww.png" alt="imazh,navbar-logo">
             </a>
-            <ul id="ulmenu">
+            <ul>
                 <li>
-                    <a class="amenu" href="https://imazh.studio/en/home">Main Page</a>
+                    <a href="https://imazh.studio/en/home">Main Page</a>
                 </li>
                 <li>
-                    <a class="amenu" href="https://imazh.studio/en/about-us/">About Us</a>
+                    <a href="https://imazh.studio/en/about-us/">About Us</a>
                 </li>
                 <li>
-                    <a class="amenu" href="https://imazh.studio/en/blog/">Blog</a>
+                    <a href="https://imazh.studio/en/blog/">Blog</a>
                 </li>
                 <li>
-                    <a class="amenu" href="https://imazh.studio/en/contact-us/">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-        <div class="mid-nav">
-            <ul id="ullist">
-                <li>
-                    <a class="alist" href="https://imazh.studio/portfolio/en/film-studio">Film Studio</a>
-                </li>
-                <li>
-                    <a class="alist" href="https://imazh.studio/portfolio/en/photography-studio">Photography Studio</a>
-                </li>
-                <li>
-                    <a class="alist" href="https://imazh.studio/portfolio/en/development">Website and application
-                        department</a>
-                </li>
-                <li>
-                    <a class="alist" href="https://imazh.studio/portfolio/en/graphic-design">Graphic Design Department</a>
-                </li>
-                <li>
-                    <a class="alist" href="https://imazh.studio/portfolio/en/motion-graphic">Motion Graphic</a>
-                </li>
-                <li>
-                    <a class="alist" href="https://imazh.studio/portfolio/en/digital-marketing">Digital Marketing</a>
+                    <a href="https://imazh.studio/en/contact-us/">Contact Us</a>
                 </li>
             </ul>
         </div>
+        <ul class="mid-nav">
+            <li>
+                <a href="https://imazh.studio/portfolio/en/film-studio">Film Studio</a>
+            </li>
+            <li>
+                <a href="https://imazh.studio/portfolio/en/photography-studio">Photography Studio</a>
+            </li>
+            <li>
+                <a href="https://imazh.studio/portfolio/en/development">Website and application
+                    department</a>
+            </li>
+            <li>
+                <a href="https://imazh.studio/portfolio/en/graphic-design">Graphic Design
+                    Department</a>
+            </li>
+            <li>
+                <a href="https://imazh.studio/portfolio/en/motion-graphic">Motion Graphic</a>
+            </li>
+            <li>
+                <a href="https://imazh.studio/portfolio/en/digital-marketing">Digital Marketing</a>
+            </li>
+        </ul>
         <div class="bottom-nav">
-            <span id="navtel">
-                <a id="atel" href="tel:+989179514750" target="_blank">09179514750</a>
+            <span>
+                <a href="tel:+989179514750" target="_blank">09179514750</a>
             </span>
-            <span id="navemail">
-                <a id="aemail" href="mailto:info@imazh.studio" target="_blank">info@imazh.studio</a>
+            <span>
+                <a href="mailto:info@imazh.studio" target="_blank">info@imazh.studio</a>
             </span>
-            <p id="navcr">© 2021 - All rights reserved for Imazh Branding Studio</p>
+            <p>© 2021 - All rights reserved for Imazh Branding Studio</p>
         </div>
         <i id="close-navbutton" onclick='handleCloseSidebar("en")' class="fa fa-chevron-left"></i>
     </div>

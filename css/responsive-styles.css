@@ -27,57 +27,36 @@
     right: 1.6rem;
     top: 2.5rem;
   }
-  .button1 {
+  .sidebar-button {
     display: none;
   }
-  .ancher {
+  .sidebar-button a {
     right: 0;
-  }
-  .ancher a {
     font-size: 1.5rem;
-  }
-  .bi-list {
-    font-size: 2.5rem;
-    right: 0;
-  }
-  .bi-x-lg {
-    font-size: 2rem;
-    right: 0.25rem;
   }
   #nav-main {
     width: 100vw;
     right: -100vw;
   }
-  #ulmenu li {
+  .top-nav li {
     margin: 0 0.7rem;
     text-align: center;
   }
-  .amenu {
+  .top-nav li a {
     font-size: 0.8rem;
   }
-  .alist {
+  .mid-nav a {
     font-size: 1.3rem;
   }
-  #atel {
-    font-size: 0.8rem;
-  }
-  #aemail {
-    font-size: 0.8rem;
-  }
-  #navcr {
+  .bottom-nav a,
+  .bottom-nav p {
     font-size: 0.8rem;
   }
   .top-nav {
-    margin-right: 1rem;
-    margin-left: 0.5rem;
     flex-direction: column;
-  }
-  .mid-nav {
-    margin-right: 1rem;
   }
   .bottom-nav {
     margin-right: 1rem;
-    text-align: center;
   }
   .navlogo-cont {
     margin-bottom: 2rem;
@@ -98,9 +77,6 @@
   }
   #filters .button:first-child {
     padding-top: 3rem;
-  }
-  .photo-filter {
-    padding: 0.5rem 0 !important;
   }
   /* Shapes */
   .one-top-shape {
@@ -148,7 +124,7 @@
     margin-bottom: 1rem;
     padding: 0 5px;
   }
-  .cards-item.photos img {
+  .cards.photos img {
     height: 100%;
   }
   #load-more,
@@ -159,14 +135,15 @@
   }
   /* SlideThree --------------------------- */
   .slide-three {
+    width: 100%;
     height: auto;
     justify-content: center;
-    padding: 0;
-    padding-top: 3rem;
+    padding-top: 1rem;
     margin: 0;
   }
   .gallery2-container {
     width: 95%;
+    padding: 0 1rem 1rem;
     flex-direction: column-reverse;
     justify-content: space-around;
   }
@@ -183,32 +160,32 @@
   .gallery2-container.web-page {
     height: 50vh !important;
   }
-  .imglist-container {
+  .img-list{
     display: none;
   }
   .img-container {
     width: 100%;
   }
-  .img-container img {
-    width: 100%;
-  }
-  .img-preview-container {
-    width: 100%;
-  }
-  /* SlideFour */
-  .slide-four {
-    width: 100vw;
-    height: 60vh;
-    background-image: url(https://imazh.studio/img/footer-bg-1024x364.png);
-  }
-  .footer-logo {
-    width: 50%;
-  }
-  .img-preview img:hover {
+  #preview:hover {
     opacity: unset;
   }
   .preview-hover-box {
     display: none;
+  }
+  .img-preview-container {
+    width: 100%;
+  }
+  .img-preview iframe{
+    height: 15rem;
+  }
+  /* SlideFour */
+  .slide-four {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(https://imazh.studio/img/footer-bg-1024x364.png);
+  }
+  .slide-four img {
+    width: 50%;
   }
 }
 
@@ -233,35 +210,27 @@
     right: 1.6rem;
     top: 2.5rem;
   }
-  .button1 {
+  .sidebar-button {
     display: none;
   }
   #nav-main {
     width: 25rem;
     right: -25rem;
   }
-  #ulmenu {
-    margin-left: 3rem;
-  }
-  #ulmenu li {
+  .top-nav li {
     margin: 0 0.5rem;
   }
-  .amenu {
+  .top-nav li a {
     font-size: 0.7rem;
   }
-  .alist {
+  .mid-nav a {
     font-size: 1rem;
   }
-  .alist:after {
+  .mid-nav a:after {
     bottom: -40%;
   }
-  #atel {
-    font-size: 0.6rem;
-  }
-  #aemail {
-    font-size: 0.6rem;
-  }
-  #navcr {
+  .bottom-nav a,
+  .bottom-nav p {
     font-size: 0.6rem;
   }
   /* Filters --------------------------------- */
@@ -280,9 +249,6 @@
   }
   #filters .button:first-child {
     padding-top: 3rem;
-  }
-  .photo-filter {
-    padding: 0.5rem 0 !important;
   }
   /* Shapes */
   .one-top-shape {
@@ -323,7 +289,7 @@
     height: auto;
     margin-bottom: 2rem;
   }
-  .cards-item.photos img {
+  .cards.photos img {
     height: 100%;
   }
   #load-more,
@@ -334,14 +300,15 @@
   }
   /* SlideThree ------------------------------ */
   .slide-three {
+    width: 100%;
     height: auto;
     justify-content: center;
-    padding: 0;
-    padding-top: 3rem;
+    padding-top: 1rem;
     margin: 0;
   }
   .gallery2-container {
     width: 95%;
+    padding: 0 1rem 1rem;
     flex-direction: column-reverse;
     justify-content: space-around;
   }
@@ -357,17 +324,23 @@
   .gallery2-container.web-page {
     height: 50vh !important;
   }
-  .imglist-container {
+  .img-list{
     display: none;
   }
   .img-container {
     width: 100%;
   }
-  .img-container img {
-    width: 100%;
+  #preview:hover {
+    opacity: unset;
+  }
+  .preview-hover-box {
+    display: none;
   }
   .img-preview-container {
     width: 100%;
+  }
+  .img-preview iframe{
+    height: 15rem;
   }
   /* SlideFour */
   .slide-four {
@@ -375,14 +348,8 @@
     height: 60vh;
     background-image: url(https://imazh.studio/img/footer-bg-1024x364.png);
   }
-  .footer-logo {
+  .slide-four img {
     width: 35%;
-  }
-  .img-preview img:hover {
-    opacity: unset;
-  }
-  .preview-hover-box {
-    display: none;
   }
 }
 
@@ -402,39 +369,28 @@
   .menu-bar-hover {
     right: 2rem;
   }
-  .button1 {
+  .sidebar-button {
     display: none;
   }
   #nav-main {
     width: 28rem;
     right: -28rem;
   }
-  #ulmenu {
-    margin-left: 3rem;
-  }
-  .amenu {
+  .top-nav li a {
     font-size: 0.8rem;
   }
-  #ullist li {
+  .mid-nav li {
     margin: 1rem 0.5rem 0;
   }
-  .alist {
+  .mid-nav a {
     font-size: 1.1rem;
   }
-  .alist:after {
+  .mid-nav a::after {
     bottom: -40%;
   }
-  #atel {
+  .bottom-nav a,
+  .bottom-nav p {
     font-size: 0.7rem;
-  }
-  #aemail {
-    font-size: 0.7rem;
-  }
-  #navcr {
-    font-size: 0.7rem;
-  }
-  .top-nav {
-    margin-left: 0.2rem;
   }
   /* Shapes */
   .one-top-shape {
@@ -475,7 +431,7 @@
     height: auto;
     margin-bottom: 2rem;
   }
-  .cards-item.photos img {
+  .cards.photos img {
     height: 100%;
   }
   #load-more,
@@ -486,15 +442,15 @@
   }
   /* SlideThree ---------------------------- */
   .slide-three {
+    width: 100%;
     height: auto;
     justify-content: center;
-    padding: 0;
-    padding-top: 3rem;
+    padding-top: 1rem;
     margin: 0;
   }
   .gallery2-container {
-    height: auto;
     width: 95%;
+    padding: 0 1rem 1rem;
     flex-direction: column-reverse;
     justify-content: space-around;
   }
@@ -507,23 +463,26 @@
       rgba(156, 14, 80, 1) 70%
     ) !important;
   }
-  .imglist-container {
+  .gallery2-container.web-page {
+    height: 50vh !important;
+  }
+  .img-list{
     display: none;
   }
   .img-container {
     width: 100%;
   }
-  .img-preview img:hover {
+  #preview:hover {
     opacity: unset;
   }
   .preview-hover-box {
     display: none;
   }
-  .img-container img {
-    width: 100%;
-  }
   .img-preview-container {
     width: 100%;
+  }
+  .img-preview iframe{
+    height: 20rem;
   }
   /* SlideFour */
   .slide-four {
@@ -531,7 +490,7 @@
     height: 60vh;
     background-image: url(https://imazh.studio/img/footer-bg-1024x364.png);
   }
-  .footer-logo {
+  .slide-four img {
     width: 35%;
   }
 }
@@ -547,19 +506,14 @@
   #close-navbutton {
     display: none !important;
   }
-  #ullist li {
+  .mid-nav li {
     margin-top: 0.5rem;
   }
-  .alist {
+  .mid-nav a {
     font-size: 1.4rem;
   }
-  #atel {
-    font-size: 0.9rem;
-  }
-  #aemail {
-    font-size: 0.9rem;
-  }
-  #navcr {
+  .bottom-nav a,
+  .bottom-nav p {
     font-size: 0.9rem;
   }
   /* SlideTwo ------------------------------ */
@@ -572,8 +526,8 @@
     font-size: 0.9rem !important;
   }
   /* SlideThree ---------------------------- */
-  .img-card img {
-    width: 50%;
+  .web-page .img-card{
+    height: 30%;
   }
   .preview-details p {
     font-size: 0.9rem;
@@ -602,19 +556,14 @@
   #close-navbutton {
     display: none !important;
   }
-  #ullist li {
+  .mid-nav li {
     margin-top: 0.5rem;
   }
-  .alist {
+  .mid-nav a {
     font-size: 1.4rem;
   }
-  #atel {
-    font-size: 0.9rem;
-  }
-  #aemail {
-    font-size: 0.9rem;
-  }
-  #navcr {
+  .bottom-nav a,
+  .bottom-nav p {
     font-size: 0.9rem;
   }
   /* SlideTwo -------------------------------- */
@@ -627,12 +576,6 @@
     font-size: 0.6rem;
   }
   /* SlideThree ------------------------------ */
-  .img-card img {
-    width: 50%;
-  }
-  .card-web-container{
-    width: 18rem;
-  }
   .preview-details p {
     font-size: 0.9rem;
   }
@@ -663,12 +606,6 @@
     padding: 0.5rem 1rem;
   }
   /* SlideThree --------------------------- */
-  .img-card img {
-    width: 50%;
-  }
-  .card-web-container{
-    width: 20rem;
-  }
   .preview-details p {
     font-size: 0.9rem;
   }
@@ -690,17 +627,11 @@
     display: none !important;
   }
   /* SlideThree ----------------------------- */
-  .img-card img {
-    width: 50%;
-  }
   .img-details h3 {
     font-size: 1.5rem;
   }
   .img-details p {
     font-size: 1rem;
-  }
-  .img-preview iframe {
-    width: 90rem;
   }
   .preview-details h3 {
     font-size: 2rem;

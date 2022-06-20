@@ -69,9 +69,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,digital-marketing,content-writing">
-                    </div>
+                    <img src=${item.src} alt="imazh,digital-marketing,content-writing">
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                     </div>
@@ -100,9 +98,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,digital-marketing">
-                    </div>
+                    <img src=${item.src} alt="imazh,digital-marketing">
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                     </div>
@@ -147,9 +143,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div>
-                        <iframe width="100" height="100" src=${item.iframe}></iframe>
-                    </div>
+                    <iframe width="100" height="100" src=${item.iframe}></iframe>
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -172,9 +166,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div>
-                        <iframe width="100" height="100" src=${item.iframe}></iframe>
-                    </div>
+                    <iframe width="100" height="100" src=${item.iframe}></iframe>
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -197,9 +189,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div>
-                        <iframe width="100" height="100" src=${item.iframe}></iframe>
-                    </div>
+                    <iframe width="100" height="100" src=${item.iframe}></iframe>
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -222,9 +212,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div>
-                        <iframe width="100" height="100" src=${item.iframe}></iframe>
-                    </div>
+                    <iframe width="100" height="100" src=${item.iframe}></iframe>
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -247,9 +235,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div>
-                        <iframe width="100" height="100" src=${item.iframe}></iframe>
-                    </div>
+                    <iframe width="100" height="100" src=${item.iframe}></iframe>
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -276,9 +262,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,graphic-design">
-                    </div>
+                    <img src=${item.src} alt="imazh,graphic-design">
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                     </div>
@@ -330,7 +314,7 @@ const ContentLoader = async (page, siteLang) => {
         response.PhotographyStudioContent.reverse().forEach((item) => {
             // -------------------------------------------
             let firstGalleryItem = String.raw`
-                <div class="cards-item photos">
+                <div class="cards-item">
                     <img src=${item.src} alt="imazh,photography-studio">
                 </div>
             `
@@ -338,9 +322,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,photography-studio">
-                    </div>
+                    <img src=${item.src} alt="imazh,photography-studio">
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -370,9 +352,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,photography-studio.decorative">
-                    </div>
+                    <img src=${item.src} alt="imazh,photography-studio.decorative">
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -402,9 +382,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,photography-studio,portrait">
-                    </div>
+                    <img src=${item.src} alt="imazh,photography-studio,portrait">
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -434,9 +412,7 @@ const ContentLoader = async (page, siteLang) => {
             // --------------------------------------------
             let secondGalleryItem = String.raw`
                 <div class="img-card">
-                    <div class="card-photo-container">
-                        <img src=${item.src} alt="imazh,photography-studio,product">
-                    </div>
+                    <img src=${item.src} alt="imazh,photography-studio,product">
                     <div class="img-details">
                         <h3>${siteLang === 'en' ? item.enTitle : item.title}</h3>
                         <p>${siteLang === 'en' ? item.enText : item.text}</p>
@@ -477,28 +453,18 @@ const ContentLoader = async (page, siteLang) => {
         }
     }
     // ---------------------------------------------------------------  Gallery 1 Scroll Left
-    const isInViewport = () => {
-        const slideThree = $('.slide-three')[0]
-        const rect = slideThree.getBoundingClientRect();
-
-        if (window.matchMedia("(min-width :992px)").matches) {
-            return rect.left
-        }
-        else {
-            return rect.bottom
-        }
-    }
     Array.from($('.cards-item img')).map((item, index) => {
         if ($('.slide-three').length) {
             $(item).click(() => {
                 $('.img-card')[index].click();
 
+                const rect = $('.slide-three')[0].getBoundingClientRect();
+
                 if (window.matchMedia("(min-width :992px)").matches) {
-                    const left = isInViewport()
-                    $('.outer-wrapper')[0].scrollBy(0, -left)
+                    $('.outer-wrapper')[0].scrollBy(0, -rect.left)
                 }
                 else {
-                    window.scrollBy(0, isInViewport() - window.innerHeight + 5)
+                    window.scrollBy(0, rect.bottom - window.innerHeight + 5)
                 }
             })
         }

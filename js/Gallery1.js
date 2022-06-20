@@ -29,9 +29,20 @@ $('#load-less').click(() => {
     }
 })
 
-$(window).resize(() => {
+const handleFixWidth = () => {
     if (window.matchMedia("(min-width :992px)").matches) {
-        let findCount = Math.ceil($('.cards-item:not(".hidden")').length) / 3
+        let findCount = Math.ceil($('.cards-item:not(".hidden")').length  / 3)
         $('.cards').outerWidth(findCount * ($('.cards-item').outerWidth()))
     }
+    else{
+        $('.cards').outerWidth('100%')
+    }
+}
+
+$(window).resize(() => {
+    handleFixWidth()
+})
+
+$('.outer-wrapper').scroll(() => {
+    handleFixWidth()
 })

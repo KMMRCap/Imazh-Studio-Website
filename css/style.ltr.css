@@ -18,6 +18,26 @@ body {
   font-family: "Lato";
   direction: ltr;
 }
+/* ----------------------------------------------------------------------------- PreLoader */
+.preloader h3::before {
+  content: "Please Wait";
+}
+@keyframes a-ltr-after {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-115%);
+  }
+}
+@keyframes a-ltr-before {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
 /* -------------------------------------------------------------------------------------  Navbar */
 .menu-bar-container {
   left: 3rem;
@@ -28,14 +48,15 @@ body {
 .menu-bar-hover {
   left: 3rem;
 }
-.button1 {
+.sidebar-button {
   left: 0;
   border-right: 2px solid #fdb400;
 }
-.ancher {
+.sidebar-button a {
   transform: rotate(90deg);
+  left: 3px;
 }
-.navbutton span {
+.sidebar-button span {
   transform-origin: left;
 }
 /* ---------------------------------Menu---------------------------------------------- */
@@ -50,13 +71,13 @@ body {
 .bottom-nav {
   margin: 0 0 2rem 1.5rem;
 }
-.alist:after {
+.mid-nav a:after {
   left: 5px;
 }
-.alist:hover {
+.mid-nav a:hover {
   margin-left: 1rem;
 }
-#navemail {
+.bottom-nav span:nth-child(2) {
   margin-left: 2rem;
 }
 #close-navbutton {
@@ -133,6 +154,9 @@ body {
   transform: rotate(-90deg);
 }
 /* -----------------------------------------------------------------------  Section 3 : Work 2 */
+.slide-three{
+  margin-left: 2rem;
+}
 .gallery2-container:after {
   left: -4px;
   right: 0px;
@@ -153,7 +177,7 @@ body {
 .slide-four {
   background-image: url(https://imazh.studio/img/side-bg-ltr.png);
 }
-.footer-chat:hover {
+.footer-details h3:hover {
   transform: translateX(10px);
 }
 .footer-tel {
@@ -182,6 +206,9 @@ body {
   .menu-bar-png,
   .menu-bar-hover {
     left: 1.6rem;
+  }
+  .mid-nav {
+    margin-right: 1rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
