@@ -614,7 +614,6 @@ body {
   border-radius: 0.5rem;
   box-shadow: 0 5px 1px 0px #9d0e50;
   cursor: pointer;
-  min-height: 150px;
 }
 
 .cards.photos img {
@@ -725,7 +724,6 @@ body {
   border-radius: 1rem;
   border: 3px solid #9d0e50;
   box-shadow: 0 5px 1px 0px #9d0e50;
-  min-height: 8rem;
 }
 
 .img-card iframe {
@@ -809,8 +807,6 @@ body {
   border: 3px solid #9d0e50;
   box-shadow: 0 9px 1px 0px #9d0e50;
   cursor: pointer;
-  min-height: 10rem;
-  min-width: 10rem;
 }
 
 .img-preview-container {
@@ -910,8 +906,6 @@ iframe#preview:hover {
 
 .slide-four img {
   width: 60%;
-  min-width: 5rem;
-  min-height: 5rem;
 }
 
 .footer-details {
@@ -1041,8 +1035,6 @@ iframe#preview:hover {
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
-  min-width: 10rem;
-  min-height: 10rem;
 }
 
 .modal-hover-box {
@@ -1107,8 +1099,6 @@ iframe#preview:hover {
   cursor: pointer;
   transition: 0.3s ease;
   display: unset !important;
-  min-width: 2rem;
-  min-height: 2rem;
 }
 
 .splide__slide img:hover {
