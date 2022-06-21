@@ -39,12 +39,8 @@ body {
   }
 }
 /* -------------------------------------------------------------------------------------  Navbar */
-.menu-bar-container {
-  right: 3rem;
-}
-.menu-bar-png {
-  right: 3rem;
-}
+.menu-bar-container,
+.menu-bar-png,
 .menu-bar-hover {
   right: 3rem;
 }

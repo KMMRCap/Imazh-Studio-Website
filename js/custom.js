@@ -16,7 +16,7 @@ const loadFix = () => {
 }
 // ----------------------------------------------- Gallery 2 Scroll Hint for Web Development Page
 const hideHint = () => {
-    if ($(".img-preview-container").scrollTop() !== 0) {
+    if ($(".web-page .img-preview").scrollTop() !== 0) {
         $(".scroll-hint")[0].style.opacity = "0";
     }
     else {

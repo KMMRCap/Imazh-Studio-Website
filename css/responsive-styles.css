@@ -157,7 +157,7 @@
       rgba(156, 14, 80, 1) 70%
     ) !important;
   }
-  .gallery2-container.web-page {
+  .web-page .gallery2-container {
     height: 50vh !important;
   }
   .img-list{
@@ -172,7 +172,7 @@
   .preview-hover-box {
     display: none;
   }
-  .img-preview-container {
+  .web-page .img-preview {
     width: 100%;
   }
   .img-preview iframe{
@@ -321,7 +321,7 @@
       rgba(156, 14, 80, 1) 70%
     ) !important;
   }
-  .gallery2-container.web-page {
+  .web-page .gallery2-container {
     height: 50vh !important;
   }
   .img-list{
@@ -336,7 +336,7 @@
   .preview-hover-box {
     display: none;
   }
-  .img-preview-container {
+  .web-page .img-preview {
     width: 100%;
   }
   .img-preview iframe{
@@ -463,7 +463,7 @@
       rgba(156, 14, 80, 1) 70%
     ) !important;
   }
-  .gallery2-container.web-page {
+  .web-page .gallery2-container {
     height: 50vh !important;
   }
   .img-list{
@@ -478,7 +478,7 @@
   .preview-hover-box {
     display: none;
   }
-  .img-preview-container {
+  .web-page .img-preview {
     width: 100%;
   }
   .img-preview iframe{
@@ -530,7 +530,7 @@
     height: 30%;
   }
   .preview-details p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   /* SlideFour ---------------------------- */
   .seo-footer {
@@ -577,7 +577,7 @@
   }
   /* SlideThree ------------------------------ */
   .preview-details p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .btt.fa {
     transform: rotate(90deg);
@@ -637,7 +637,7 @@
     font-size: 2rem;
   }
   .preview-details p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .btt.fa {
     transform: rotate(90deg);
